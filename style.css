@@ -323,8 +323,7 @@ pre {
 .contact-area {
 	position: relative;
 	min-height: 100vh;		
-	background: url("assets/img/3.jpeg") no-repeat center center / cover;
-	background-position: bottom center;
+	background: url("assets/img/3.jpeg") no-repeat bottom center / cover;	
 }
 
 .contact-text {
