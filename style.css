@@ -1,0 +1,473 @@
+/*------------------------------------------------------------------
+Common Stylesheet
+
+Project:   Theme Title
+Build:     Bootstrap 3 +
+Author:    ThemeBadge
+Author URL: http://www.themebadge.com
+
+-------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	typography
+-----------------------------------------------------------------*/
+
+body {
+    font-family: 'Vollkorn', serif;
+    line-height: 1.5;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+a:active,
+a:focus {
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+    color: #323232;
+}
+
+a:hover,
+.btn,
+.btn:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a img,
+iframe {
+    border: none !important;
+}
+
+p {
+    margin: 0;
+    line-height: 22px;
+    color: #7e7e7e;
+}
+
+p,
+li {
+    font-family: 'Vollkorn', serif;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+pre {
+    display: block;
+    padding: 10px;
+    margin: 0 0 30px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+    border: 1px solid #EDEDED;
+    border-radius: 0;
+}
+
+
+/* Go Scroll To Top */
+.go-top {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 999;
+    display: none;
+}
+
+.go-top span {
+    background-color: rgb(4, 40, 61);
+    color: #008ad3;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 10px;
+}
+
+.go-top span:hover {
+    color: #fff;
+}
+
+.Skogman {
+    background: url("assets/img/1.jpeg") no-repeat center center / cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Skogman-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Skogman-text h1 {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    font-size: 80px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+}
+
+.Skogman-text p {
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    margin-top: 20px;
+}
+
+
+/*================strive-area-=============*/
+.strive-area {
+    padding: 140px 0;
+}
+
+.strive-text {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.strive-text h1 {
+    font-weight: 400;
+    font-size: 40px;
+    min-height: 40px;
+    color: #34495e;
+    line-height: 1;
+    font-family: 'Vollkorn', serif;
+    padding-bottom: 20px;
+}
+
+.strive-text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.5;
+    font-family: 'Vollkorn', serif;
+}
+
+
+/*=============Codemate-area==========*/
+.Codemate-area {
+    background: url("assets/img/1.jpg") no-repeat center center / cover;
+    min-height: 70vh;
+    padding: 120px 0;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 17, 17, .3);
+}
+
+.Codemate-text {
+    max-width: 530px;
+    margin: 0 auto;
+    position: relative;;
+    z-index: 12;
+}
+
+.Codemate-text h1 {
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+.Codemate-text h3 {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Codemate-text ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Codemate-text ul li {
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+
+/*===========language-area============*/
+.language-area {
+    padding: 120px 0;
+}
+
+.language-text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.language-text h1 {
+    line-height: 1;
+    font-size: 40px;
+    color: #34495e;
+    font-weight: 300;
+    font-family: 'Vollkorn', serif;
+}
+
+.language-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222;
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+/*============contact-area==========*/
+.contact-area {
+    background: url("assets/img/3.jpeg") no-repeat center center / cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.contact-text h3 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.contact-text p {
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Responsive Code */
+
+@media only screen and (max-width:991px) {
+    .Skogman-text h1 {
+        font-size: 60px;
+    }
+    .Skogman-text p {
+        font-size: 30px;
+    }
+    .strive-area {
+        padding: 100px 0;
+    }
+    .strive-text h1,
+    .language-text h1 {
+        font-size: 34px;
+        `
+    }
+    .contact-text h1 {
+        font-size: 70px;
+        line-height: 1.2;
+    }
+    .contact-text h3 {
+        font-size: 35px;
+        line-height: 1;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Skogman-text h1 {
+        font-size: 50px;
+    }
+    .Skogman-text p {
+        font-size: 25px;
+    }
+    .strive-area {
+        padding: 80px 40px;
+    }
+    .strive-text h1,
+    .language-text h1 {
+        font-size: 30px;
+        text-align: justify!important;
+    }
+    .Codemate-area {
+        padding: 80px 40px;
+    }
+    .Codemate-text h1 {
+        font-size: 35px;
+    }
+    .language-area {
+        padding: 80px 40px;
+    }
+    .contact-text h1 {
+        font-size: 60px;
+    }
+    .contact-text h3 {
+        font-size: 30px;
+    }
+    .contact-text p {
+        margin-top: 15px;
+    }
+
+    .Skogman-text p{
+        margin-top: 15px;    
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .strive-area,
+    .Codemate-area,
+    .language-area {
+        padding: 40px 20px;
+    }
+    .contact-text h1 {
+        font-size: 50px;
+        line-height: 1.5;
+    }
+
+    .Skogman-text p{
+        margin-top: 10px;    
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .Skogman-text h1 {
+        font-size: 35px;
+    }
+    .Skogman-text p {
+        font-size: 20px;
+    }
+    .strive-area,
+    .Codemate-area,
+    .language-area {
+        padding: 40px 15px;
+    }
+    .strive-text h1,
+    .language-text h1 {
+        font-size: 26px;
+    }
+    .Codemate-text h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .Codemate-text h3 {
+        margin-top: 15px;
+    }
+    .contact-text h1 {
+        font-size: 45px;
+    }
+    
+    .Skogman,
+    .contact-area{
+	min-height: 70vh;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .Skogman-text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .Skogman-text p {
+        font-size: 18px;
+    }
+    .strive-area,
+    .language-area {
+        padding: 30px 0px;
+    }
+    .strive-text h1,
+    .language-text h1 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    .strive-text p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .Codemate-area {
+        padding: 30px 15px;
+    }
+    .Codemate-text ul li {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .Codemate-text h1 {
+        font-size: 28px;
+        margin-top: 35px;
+    }
+    .contact-text h1 {
+        font-size: 40px;
+    }
+    .contact-text h3 {
+        font-size: 25px;
+    }
+    .contact-text p {
+        margin-top: 11px;
+        font-size: 16px;
+    }
+}
