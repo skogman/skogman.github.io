@@ -120,17 +120,26 @@ pre {
 	box-shadow: 2px 6px 15px rgba(36,37,38,0.3);
 }
 
+.bio-area,
+.employment-area,
+.language-area,
+.contact-area {
+	position: relative;	
+	background-attachment: fixed !important;
+}
+
 .banner {
-	background: url("assets/img/1.jpeg") no-repeat center center / cover;
-	min-height: 100vh;
 	position: relative;
+	background: url("assets/img/1.jpeg") no-repeat center center / cover;
+	min-height: 100vh;	
+	background-attachment: fixed;
 }
 
 .banner-text {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);	
 }
 
 .banner-text h1 {
@@ -154,8 +163,10 @@ pre {
 
 
 /*================bio-area-=============*/
-.bio-area {
+
+.bio-area {	
 	padding: 140px 0;
+	background-color: #ffffff;
 }
 
 .bio-text {
@@ -183,6 +194,7 @@ pre {
 
 
 /*=============employment-area==========*/
+
 .employment-area {
 	background: url("assets/img/1.jpg") no-repeat center center / cover;
 	min-height: 70vh;
@@ -245,8 +257,10 @@ pre {
 
 
 /*===========language-area============*/
+
 .language-area {
 	padding: 120px 0;
+	background-color: #ffffff;
 }
 
 .language-text {
@@ -273,6 +287,7 @@ pre {
 
 
 /*============contact-area==========*/
+
 .contact-area {
 	background: url("assets/img/3.jpeg") no-repeat center center / cover;
 	min-height: 100vh;
