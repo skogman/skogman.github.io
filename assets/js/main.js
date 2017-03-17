@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('body').addClass('preload-site');
 
     // Scroll To Top
-    $('body').prepend('<div class="go-top"><span id="top"><i class="ion-chevron-up"></i></span></div>');
+    $('body').prepend('<div class="go-top"><span id="top"><i class="icon ion-ios-arrow-up"></i>^</span></div>');
 
     $(window).scroll(function(){
         if($(window).scrollTop() > 500){
@@ -28,4 +28,5 @@ $(window).load(function(){
 	$('#preloader').fadeOut();
 	$('.preloader-spinner').fadeOut(400);
 	$('body').removeClass('preload-site');
+    $('body').hide().fadeIn(2000); 
 });
