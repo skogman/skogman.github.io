@@ -139,7 +139,6 @@ pre {
     line-height: 1.2;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    border-bottom: 1px solid #fff;
 }
 
 .Skogman-text p {
@@ -149,7 +148,7 @@ pre {
     line-height: 1.3;
     text-align: center;
     font-family: 'Vollkorn', serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -159,7 +158,7 @@ pre {
 }
 
 .strive-text {
-    max-width: 740px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -182,8 +181,8 @@ pre {
 }
 
 
-/*=============Codemate-area==========*/
-.Codemate-area {
+/*=============employment-area==========*/
+.Employment-area {
     background: url("assets/img/1.jpg") no-repeat center center / cover;
     min-height: 70vh;
     padding: 120px 0;
@@ -199,15 +198,15 @@ pre {
     background-color: rgba(17, 17, 17, .3);
 }
 
-.Codemate-text {
+.Employment-text {
     max-width: 530px;
     margin: 0 auto;
     position: relative;;
     z-index: 12;
 }
 
-.Codemate-text h1 {
-    font-weight: 400;
+.Employment-text h1 {
+    font-weight: 600;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     color: #fff;
@@ -217,7 +216,7 @@ pre {
 
 }
 
-.Codemate-text h3 {
+.Employment-text h3 {
     font-weight: 600;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -227,12 +226,12 @@ pre {
     margin-top: 20px;
 }
 
-.Codemate-text ul {
+.Employment-text ul {
     margin: 0;
     padding: 0;
 }
 
-.Codemate-text ul li {
+.Employment-text ul li {
     font-weight: 400;
     font-family: 'Vollkorn', serif;
     font-size: 18px;
@@ -286,7 +285,7 @@ pre {
 
 .contact-text h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 80px;
     color: #fff;
     text-align: center;
@@ -351,13 +350,12 @@ pre {
     }
     .strive-text h1,
     .language-text h1 {
-        font-size: 30px;
-        text-align: justify!important;
+        font-size: 30px;        
     }
-    .Codemate-area {
+    .Employment-area {
         padding: 80px 40px;
     }
-    .Codemate-text h1 {
+    .Employment-text h1 {
         font-size: 35px;
     }
     .language-area {
@@ -380,9 +378,9 @@ pre {
 
 @media only screen and (max-width:650px) {
     .strive-area,
-    .Codemate-area,
+    .Employment-area,
     .language-area {
-        padding: 40px 20px;
+        padding: 80px 20px;
     }
     .contact-text h1 {
         font-size: 50px;
@@ -402,19 +400,19 @@ pre {
         font-size: 20px;
     }
     .strive-area,
-    .Codemate-area,
+    .Employment-area,
     .language-area {
-        padding: 40px 15px;
+        padding: 80px 15px;
     }
     .strive-text h1,
     .language-text h1 {
         font-size: 26px;
     }
-    .Codemate-text h1 {
+    .Employment-text h1 {
         font-size: 30px;
         margin-top: 30px;
     }
-    .Codemate-text h3 {
+    .Employment-text h3 {
         margin-top: 15px;
     }
     .contact-text h1 {
@@ -436,8 +434,9 @@ pre {
         font-size: 18px;
     }
     .strive-area,
+    .Employment-area,
     .language-area {
-        padding: 30px 0px;
+        padding: 60px 0px;
     }
     .strive-text h1,
     .language-text h1 {
@@ -445,18 +444,16 @@ pre {
         line-height: 1.3;
     }
     .strive-text p {
-        font-size: 18px;
-        text-align: justify;
+        font-size: 18px;        
     }
-    .Codemate-area {
+    .Employment-area {
         padding: 30px 15px;
     }
-    .Codemate-text ul li {
+    .Employment-text ul li {
         font-size: 16px;
-        margin-top: 20px;
-        text-align: justify;
+        margin-top: 20px;        
     }
-    .Codemate-text h1 {
+    .Employment-text h1 {
         font-size: 28px;
         margin-top: 35px;
     }
