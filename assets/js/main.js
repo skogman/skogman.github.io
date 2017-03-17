@@ -4,6 +4,18 @@ $(document).ready(function() {
 	$('body').hide();
 	$('body').addClass('preload-site');
 
+
+	$(window).scroll(function() {
+		var nav = $('#navbar');
+		var top = 600;
+		if ($(window).scrollTop() >= top) {
+			nav.addClass('navbar-highlight');
+		} else {
+			nav.removeClass('navbar-highlight');
+		}
+	});
+
+
 	// Scroll To Top
 	// $('body').prepend('<div class="go-top"><span id="top"><i class="icon ion-ios-arrow-up"></i>^</span></div>');
 
