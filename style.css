@@ -321,9 +321,10 @@ pre {
 /*============contact-area==========*/
 
 .contact-area {
-	background: url("assets/img/3.jpeg") no-repeat center center / cover;
-	min-height: 100vh;
 	position: relative;
+	min-height: 100vh;		
+	background: url("assets/img/3.jpeg") no-repeat center center / cover;
+	background-position: bottom center;
 }
 
 .contact-text {
