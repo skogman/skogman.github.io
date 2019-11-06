@@ -228,17 +228,17 @@ section {
   background: linear-gradient(-120deg, rgba(52,218,166,1) 0%, rgba(123,103,240,1) 100%);
 }
 
-#skills {
+#skills, #certs {
   display: flex;
   flex-direction: row;
   margin: 60px 0;
 }
 
-#skills .col {
+#skills .col, #certs .col {
   width: 50%;
 }
 
-.skills-copy {
+.skills-copy, .certs-copy {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -381,4 +381,11 @@ section {
 
 .locked {
   pointer-events: none !important;
+}
+
+.certificate {
+  width: auto;
+  max-height: 320px;
+  transform: perspective(3000px) rotateX(45deg);
+  box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.08), 0px 6px 18px 0px rgba(0, 0, 0, 0.05);
 }
