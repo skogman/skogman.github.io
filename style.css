@@ -69,6 +69,15 @@ section {
   z-index: 222;
 } 
 
+.hero-content .bio-text {
+  margin-top: 3vw;
+}
+
+.hero-content .bio-text h1 {
+  font-size: 1.9vw;
+  color: #34d3aa;
+}
+
 .hero-content h2 {
   font-size: 7.5vw;
   line-height: 1;
